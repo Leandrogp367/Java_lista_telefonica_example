@@ -1,0 +1,10 @@
+package br.com.fatec;
+
+public class Start {
+	public static void main(String[] args) {
+		Agenda ag = new Agenda(3);
+		ag.inserir();
+		ag.imprimirContatos();
+	}
+
+}
